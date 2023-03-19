@@ -8,6 +8,7 @@ Submitted on 19th March 2023
 ### Assumptions:
 
 # In line with the book, whenever the queue is full and at max capacity, appending on either side will pop (= overwrite) an entry from the opposite side.
+# As confirmed with Hannah via email, we excluded the value-based removal method
 
 class Empty(Exception): pass
 
