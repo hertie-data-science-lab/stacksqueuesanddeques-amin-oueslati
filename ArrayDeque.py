@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Submitted on 19th March 2022
+Submitted on 19th March 2023
 
-@author: Oskar Krafft | Paul Sharratt | Fabian Mertz | Amin Oueslati
+@author: Oskar Krafft | Paul Sharratt | Fabian Metz | Amin Oueslati
 """
 
 ### Assumptions:
 
 # In line with the book, whenever the queue is full and at max capacity, appending on either side will pop (= overwrite) an entry from the opposite side.
-# 
 
 class Empty(Exception): pass
 

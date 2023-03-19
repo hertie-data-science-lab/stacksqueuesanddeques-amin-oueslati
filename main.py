@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Submitted on 19th March 2022
+Submitted on 19th March 2023
 
-@author: Oskar Krafft | Paul Sharratt | Fabian Mertz | Amin Oueslati
+@author: Oskar Krafft | Paul Sharratt | Fabian Metz | Amin Oueslati
 """
 
 from ArrayDeque import ArrayDequeMaxlen
@@ -10,14 +10,13 @@ from ArrayDeque import ArrayDequeMaxlen
           
 AQM = ArrayDequeMaxlen(20)
 
-#print('Adding last')
-#for i in range(100):
- #   AQM.enqueue_last(i)
-  #  print (i, AQM._data)
+print('Adding last')
+for i in range(100):
+    AQM.enqueue_last(i)
+    print (i, AQM._data)
     
 print ('\nAdding first')
-# for i in range(20, 10, -1):
-for i in range(0, 50):
+for i in range(20, 10, -1):
     AQM.enqueue_first(i)
     print (i, AQM._data)
     
